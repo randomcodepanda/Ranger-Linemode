@@ -10,7 +10,7 @@ It uses Mediainfo to output the information from the videos, there might also be
 
 ## Install instructions
 
-- Place the medainfo_linemode.py at:
+Place the medainfo_linemode.py at:
 
 ```
 ~/.config/ranger/plugins
