@@ -46,7 +46,7 @@ class MyLinemode(ranger.core.linemode.LinemodeBase):
                     output.append(str(new_dict.get(value," ")) + "P" ) # short,ex: 1080P
                     continue
                 if value == "FrameRate":
-                    output.append(str(round(float(new_dict.get(value," ")))) + "FPS")
+                    output.append(str(round(float(new_dict.get(value,"0")))) + "FPS")
                     continue
                 output.append(str(new_dict.get(value,"")))
             return " ".join(output)
